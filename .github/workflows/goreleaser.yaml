@@ -5,6 +5,9 @@ on:
     tags:
       - v*
   workflow_dispatch:
+    inputs:
+        tags:
+          description: 'v*'
 
 permissions:
   contents: write
